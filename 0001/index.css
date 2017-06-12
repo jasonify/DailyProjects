@@ -1,0 +1,30 @@
+body {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  color: #ccc;
+}
+
+
+#office{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+
+.entry {
+    text-align: center;
+    box-shadow: 3px 3px 2px 2px rgba(90, 90, 90, 0.55);
+    max-width: 50%;
+    margin: 20px auto;
+    color: #202069;
+    border-radius: 15px;
+    background: rgba(210, 206, 249, 0.67);
+    font-family: Lato-Light;
+}
+
+body{
+  cursor: pointer;
+}
