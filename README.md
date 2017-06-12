@@ -22,3 +22,25 @@ Very similar to last 180 Daily Projects but this time no set timeline
 ** aim for 3hrs++ a day. Ideally a lot more on weekends.
 
 ** should balance itself if one day is heavy on art, do next day heavy on code
+
+
+
+##Inspirational Sources:
+
+- illusrtation class (influences episode)
+- my book library 
+- design websites (dribbble / behance / artstation)
+- lynda mini movies
+- wired movie
+
+
+
+
+## Instead of TV:
+
+-- artschool classes
+-- skillshare classes
+-- phlearn
+-- c4d youtube videos
+-- interviews: magicbox, artcafe, schoolism, ask an artist
+
