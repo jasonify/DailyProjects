@@ -14,7 +14,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 app.get("/", function(req, res){
   res.sendFile(path.join(__dirname + "/index.html"));
 });
-app.get("/hello.png", function(req, res){
+app.get("/hello.jpg", function(req, res){
   res.sendFile(path.join(__dirname + "/hello.png"));
 });
 app.get("/main.js", function(req, res){
