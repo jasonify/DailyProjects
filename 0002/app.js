@@ -22,6 +22,16 @@ app.get("/", function(req, res){
   res.send("Hello world");
 });
 
+
+
+app.get("/create-idea/:title", function(req, res){
+  var lilIdea = new Idea();
+  lilIdea.title = req.params.title;
+  lilIdea.save(function(){
+    res.send("Created...");
+  });
+});
+
 app.get("/create-ideas", function(req, res){
   var lilIdea = new Idea();
   lilIdea.title = "Some idea";
