@@ -24,11 +24,9 @@ app.get("/", function(req, res){
 });
 
 
-
 app.get("/main.js", function(req, res){
   res.sendFile(path.join(__dirname + "/main.js"));
 });
-
 
 
 app.get("/create-idea/:title", function(req, res){
