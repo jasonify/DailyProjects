@@ -7,11 +7,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="main.js"></script>
+  <style>
+#img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+    z-index: -1;
+}
+  </style>
 </head>
 <body>
   Hello :)
   <input type="text" id="idea-title"> <button id="create-idea">Create</button>
   <div id="ideas"></div>
-  <img src="hello.jpg" alt="">
+  <img id="img" src="hello.jpg" alt="">
 </body>
 </html>
