@@ -14,12 +14,17 @@ var items = [
   }
 ];
 
-var render =  function(){
+var ItemEl = React.createClass({
+  render: function(){
+    return React.createElement('p', {className: 'item'}, this.props.title);
+  }
+});
 
+var render =  function(){
   var itemEls = [];
   items.forEach(function(item){
     itemEls.push(React.createElement(
-      'h2', null, item.title
+      ItemEl, item, 
     ));
   });
   ReactDOM.render(
