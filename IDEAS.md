@@ -12,6 +12,7 @@ node stuff
 ios - maps 
 
 
+React + Flo
 after effects
 d3 low poly
 maya + arnold + octane
@@ -64,6 +65,7 @@ Scheme
 Logic Programming
 Mini Kameren
 Prolog
+Typescript
 
 Overlay code over art
 
