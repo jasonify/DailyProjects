@@ -21,12 +21,13 @@ var render = function(){
 
 
   context.save();
+  console.log('width', width, 'height', height);
   context.clearRect(0, 0,width, height);
 
   context.translate(x, y + height / 2);
   context.rect(0 , 0, 10, 10);
   // context.fillStyle = "#ACABB3";
-  context.fillStyle = "blac";
+  context.fillStyle = "black";
   context.fill();
   context.restore();
   setTimeout(function(){
