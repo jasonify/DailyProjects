@@ -19,20 +19,22 @@ var render = function(){
   angle += angleIncrement;
   xPosition +=  xIncrement;
 
-
   context.save();
   console.log('width', width, 'height', height);
-  context.clearRect(0, 0,width, height);
+  context.clearRect(0, 0, width, height);
+  // context.fillRect(0, 0,width, height);
 
   context.translate(x, y + height / 2);
+  context.beginPath();
   context.rect(0 , 0, 10, 10);
   // context.fillStyle = "#ACABB3";
   context.fillStyle = "black";
   context.fill();
+  context.closePath();
   context.restore();
   setTimeout(function(){
     requestAnimationFrame(render);
-  }, 1000/60);
+  }, 1000/30);
 };
 
 
